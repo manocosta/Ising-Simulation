@@ -1,5 +1,5 @@
 # Ising-Simulation
-/*
+
 		Este programa se realizo con el objetivo de poder realizar simulaciones del modelo de 
 	Ising mediante el metodo de Metropolis Montecarlo permitiendo definir los parametros de
 	estas simulaciones en el llamado al programa. 
@@ -27,4 +27,4 @@
 		 N_MEDS  : Numero de mediciones que se promediaran para cada temperatura.
 		  PATH   : Directorio en que se desean guardar los resultados.
 		  FILE   : Nombre del archivo en que se guardaran los resultados.
-*/
+
