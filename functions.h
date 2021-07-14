@@ -41,7 +41,7 @@ int descorr_Metropolis(int *red, int iRows, double *w_tab, double *dH_tab,
 				double *Energia, double *Magnetizacion, int N_descor);
 
 
-#include "Imp_sampling_funct.h"
+// #include "Imp_sampling_funct.h"
 
 
 

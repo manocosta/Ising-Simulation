@@ -1,5 +1,5 @@
 
-#include "Imp_sampling_funct.c"
+// #include "Imp_sampling_funct.c"
 
 void get_arguments(int argc, char** argv, 
 				int *seed, int *iRows, float *init_T, float *stop_T, float *d_T,
@@ -9,7 +9,7 @@ void get_arguments(int argc, char** argv,
 {
 /*
 	Llamado al programa:
-			./programa.exe SEED 260572 L 32 N_REPS 50000 PROB 0.5
+			./programa.exe SEED 260572 L 32 INIT_T 5 B 0.5
 	 argc es el numero de elementos en argv
 	 argv son los argumentos con los que se llama el programa
 */
@@ -30,6 +30,8 @@ void get_arguments(int argc, char** argv,
 		if (strcmp(argument,"INIT_T")==0) sscanf(argv[i+1], "%f", init_T);
 
 		if (strcmp(argument,"STOP_T")==0) sscanf(argv[i+1], "%f", stop_T);
+
+		if (strcmp(argument,"D_T")==0) sscanf(argv[i+1], "%f", d_T);
 
 		if (strcmp(argument,"J")==0) sscanf(argv[i+1], "%f", J);
 
